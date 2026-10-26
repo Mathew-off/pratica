@@ -1,0 +1,57 @@
+
+/* Fundo da página */
+.FundoPaginaInterna {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 20px;
+}
+
+/* Identificação da área */
+.NomeArea {
+    color: #000000;
+    font-weight: bold;
+    padding: 5px;
+}
+
+/* Título principal */
+.TituloDestaque2 {
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+/* Títulos das tabelas */
+.tabela-titulo {
+    background-color: #eeeeee;
+    font-weight: bold;
+    padding: 5px;
+    border: 1px solid #555555;
+}
+
+/* Linhas e nomes dos campos */
+.tabela-linha {
+    text-align: right;
+    padding: 4px;
+    white-space: nowrap;
+}
+
+/* Campos do formulário */
+.itens-form {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 3px;
+    border: 1px solid #888888;
+}
+
+/* Tabelas */
+table {
+    border-collapse: collapse;
+}
+
+/* Área de documentação */
+textarea.itens-form {
+    width: 400px;
+    height: 70px;
+}

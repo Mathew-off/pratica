@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Manutenção de Órgão Colegiado</title>
+
+    <link href="folha.css" rel="stylesheet" type="text/css">
+</head>
+
+<body class="FundoPaginaInterna">
+
+    <table width="95%" border="1" cellspacing="0" cellpadding="3">
+        <tr>
+            <td class="NomeArea" colspan="2">
+                Colegiado: UEPB
+            </td>
+        </tr>
+        <tr>
+            <td class="TituloDestaque2" colspan="2">
+                Manutenção de Órgão Colegiado
+            </td>
+        </tr>
+    </table>
+
+    <br>
+
+    <table width="95%" border="1" cellspacing="0" cellpadding="3">
+        <tr>
+            <td class="tabela-titulo" width="20%">Unidade</td>
+            <td>UNIVERSIDADE ESTADUAL DA PARAÍBA</td>
+        </tr>
+        <tr>
+            <td class="tabela-titulo">Tipo Colegiado</td>
+            <td>PROJETO LIMITE DO INVISÍVEL</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <fieldset style="width: 90%;">
+        <legend class="tabela-titulo">Órgão Colegiado</legend>
+
+        <form>
+            <table width="100%" cellpadding="3">
+
+                <tr>
+                    <td class="tabela-linha" width="20%">Nome</td>
+                    <td colspan="3">
+                        <input class="itens-form" type="text"
+                               name="nome" style="width: 98%;">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="tabela-linha">Sigla</td>
+                    <td>
+                        <input class="itens-form" type="text"
+                               name="sigla" size="10">
+                    </td>
+
+                    <td class="tabela-linha">Status</td>
+                    <td>
+                        <input class="itens-form" type="text"
+                               name="status" size="10">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="tabela-linha">Data Ativação</td>
+                    <td>
+                        <input class="itens-form" type="text"
+                               name="dataAtivacao" size="10">
+                    </td>
+
+                    <td class="tabela-linha">Data de Desativação</td>
+                    <td>
+                        <input class="itens-form" type="text"
+                               name="dataDesativacao" size="10">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="tabela-linha">Órgão de Origem</td>
+                    <td colspan="2">
+                        <input class="itens-form" type="text"
+                               name="orgaoOrigem" style="width: 98%;">
+                    </td>
+                    <td>
+                        <input class="itens-form" type="text"
+                               name="codigoOrigem" size="5">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="tabela-linha">Órgão Superior</td>
+                    <td colspan="2">
+                        <input class="itens-form" type="text"
+                               name="orgaoSuperior" style="width: 98%;">
+                    </td>
+                    <td>
+                        <input class="itens-form" type="text"
+                               name="codigoSuperior" size="5">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="tabela-linha" valign="top">
+                        Documentação
+                    </td>
+                    <td colspan="3">
+                        <textarea class="itens-form"
+                                  name="documentacao"
+                                  rows="3"
+                                  style="width: 95%;">Campo de memo</textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="4" align="center" height="75">
+                        <input class="itens-form" type="submit"
+                               value="Salvar">
+
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                        <input class="itens-form" type="reset"
+                               value="Excluir">
+                    </td>
+                </tr>
+
+            </table>
+        </form>
+    </fieldset>
+
+    <br>
+
+    <div align="center">
+        <input class="itens-form" type="button"
+               value="Retornar"
+               onclick="history.back()">
+    </div>
+
+</body>
+</html>
